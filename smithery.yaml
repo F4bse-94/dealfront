@@ -1,6 +1,2 @@
 runtime: typescript
-
-startCommand:
-  command: node
-  args:
-    - index.js
+target: mcp
