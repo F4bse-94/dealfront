@@ -1,11 +1,17 @@
 {
-  "name": "dealfront-mcp-wrapper",
+  "name": "dealfront-mcp",
   "version": "1.0.0",
-  "description": "Wrapper MCP server for Dealfront API",
-  "main": "index.js",
+  "type": "module",
+  "module": "./src/index.ts",
   "scripts": {
-    "start": "node index.js"
+    "start": "smithery run dev",
+    "build": "smithery run build"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@smithery/cli": "latest"
+  }
 }
-
