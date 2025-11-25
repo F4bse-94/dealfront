@@ -1,6 +1,10 @@
-# Dealfront MCP Wrapper
+# Dealfront MCP Server Proxy
 
-This repository provides a simple wrapper to run the Dealfront API MCP server.
+This is a Smithery-compatible TypeScript MCP project that
+proxies to the Dealfront MCP server provided by apidog-mcp-server.
 
-## Usage
+## Commands
 
+npm install
+npm run build
+npm start
