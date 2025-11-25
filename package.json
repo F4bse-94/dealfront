@@ -2,16 +2,14 @@
   "name": "dealfront-mcp",
   "version": "1.0.0",
   "type": "module",
+  "main": "dist/index.js",
   "module": "./src/index.ts",
   "scripts": {
-    "start": "smithery run dev",
-    "build": "smithery run build"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "latest"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "@smithery/cli": "latest"
+    "typescript": "^5.3.3"
   }
 }
