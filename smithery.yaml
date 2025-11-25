@@ -1,6 +1,6 @@
-name: Dealfront API (BETA)
-entry:
+runtime: typescript
+
+startCommand:
   command: node
   args:
     - index.js
-
