@@ -1,1 +1,6 @@
+name: Dealfront API (BETA)
+entry:
+  command: node
+  args:
+    - index.js
 
