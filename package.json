@@ -1,1 +1,11 @@
+{
+  "name": "dealfront-mcp-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper MCP server for Dealfront API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+}
 
