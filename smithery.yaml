@@ -1,2 +1,6 @@
-runtime: typescript
-target: mcp
+runtime: container
+
+startCommand:
+  command: node
+  args:
+    - dist/index.js
